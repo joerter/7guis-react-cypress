@@ -1,0 +1,37 @@
+{
+  "name": "7guis-react-cypress",
+  "version": "0.0.1",
+  "description": "Implementation of the 7GUIs project using React and Cypress",
+  "main": "index.js",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run check && parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joerter/7guis-react-cypress.git"
+  },
+  "keywords": [
+    "react",
+    "cypress",
+    "7guis"
+  ],
+  "author": "John Oerter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joerter/7guis-react-cypress/issues"
+  },
+  "homepage": "https://github.com/joerter/7guis-react-cypress#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "parcel": "^2.7.0",
+    "process": "^0.11.10",
+    "typescript": "^4.8.4"
+  }
+}
