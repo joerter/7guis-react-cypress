@@ -1,5 +1,12 @@
+import Counter from "./Counter";
+
 function App() {
-  return <h1>7 GUIs</h1>;
+  return (
+    <div>
+      <h1>7 GUIs</h1>
+      <Counter />
+    </div>
+  );
 }
 
 export default App;
