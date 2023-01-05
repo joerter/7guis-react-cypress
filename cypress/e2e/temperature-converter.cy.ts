@@ -1,6 +1,6 @@
 describe("Temperature Converter", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:1234");
+    cy.visitHome();
   });
 
   it("should display empty fields for celsius and fahrenheit", () => {

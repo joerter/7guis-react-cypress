@@ -1,6 +1,6 @@
 describe("Counter", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:1234");
+    cy.visitHome();
 
     cy.findByRole("button", { name: "Count" }).as("button");
     cy.findByLabelText("Count:").as("count");
